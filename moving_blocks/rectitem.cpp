@@ -7,7 +7,7 @@ RectItem::RectItem()
     setRotation(angel);
 
     // set start speed
-    speed = 5;
+    speed = 2;
 
     // random set position
     int x = 0;

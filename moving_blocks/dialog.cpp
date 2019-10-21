@@ -28,7 +28,7 @@ Dialog::Dialog(QWidget *parent) :
 
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), scene, SLOT(advance()));
-    timer->start(100);
+    timer->start(30);
 }
 
 Dialog::~Dialog()
