@@ -19,7 +19,7 @@ Dialog::Dialog(QWidget *parent) :
     scene->addLine(QLineF(scene->sceneRect().bottomRight(), scene->sceneRect().bottomLeft()), pen);
     scene->addLine(QLineF(scene->sceneRect().bottomLeft(), scene->sceneRect().topLeft()), pen);
 
-    int item_count = 25;
+    int item_count = 35;
     for(int i = 0; i < item_count; ++i)
     {
         RectItem* item = new RectItem();
